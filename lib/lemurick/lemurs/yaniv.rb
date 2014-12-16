@@ -9,7 +9,12 @@ module Lemurick
       [
         'Have you tried binding.pry yet?',
         'Heugh?',
-        'Good morning, lemurs!'
+        'Good morning, lemurs!',
+        'Handlebars, guys. Handlebars!',
+        'Questions? Thoughts? Comments?',
+        'Sweet, double digits! (inside joke with the ~9 students in class by 9am)',
+        'Walk us through it.',
+        'Killin\' it!'
       ]
     end
 
