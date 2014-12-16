@@ -7,8 +7,7 @@ module Lemurick
     def quotes
       [
         'Keep your tenor high!',
-        'Good or great?',
-        'Good or great?',
+        'Good or great?'
       ]
     end
   end

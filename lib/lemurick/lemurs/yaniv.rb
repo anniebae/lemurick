@@ -1,4 +1,4 @@
 module Lemurick
-  class Christian
+  class Yaniv
   end
 end
