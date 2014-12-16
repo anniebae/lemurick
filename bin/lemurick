@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 # require File.expand_path('../../lib/lemurick', __FILE__ )
-require_relative '../lib/lemurick '
+require 'lemurick'
 
 LEMURS = %w(Andrew Matt Aldric Yaniv Amanda Thareef Christian Edward James Isul Ian Anderson Annie Bae Peter Evan Karynn Michael Denise Aaron Palermo Vadim Conrad Dave John Alisha Thomas Manini Mike Carson Gray)
 
