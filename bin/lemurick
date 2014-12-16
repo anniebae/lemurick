@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
 
-require 'lemurick'
+require_relative '../lib/lemurick'
 
 puts Lemurick::LemurMic.new(ARGV[0]).call
