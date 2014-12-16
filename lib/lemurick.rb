@@ -3,8 +3,7 @@
 require "lemurick/version"
 require "lemurick/lemurick"
 
-
-Dir['lemurick/lemurs/*'].each do |x|
+Dir['./lib/lemurick/lemurs/*'].each do |x|
   puts x
   require x
 end
