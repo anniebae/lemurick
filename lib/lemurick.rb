@@ -4,7 +4,7 @@ require "lemurick/version"
 require "lemurick/lemurick"
 
 
-Dir['./lib/lemurick/lemurs/*'].each { |x| require File.expand_path(x) }
+Dir['lemurick/lemurs/*'].each { |x| require x }
 
 module Lemurick
   # Your code goes here...
