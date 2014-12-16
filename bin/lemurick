@@ -2,8 +2,7 @@
 
 require File.expand_path('../../lib/lemurick', __FILE__ )
 
-LEMURS = %w(Amanda Thareef Christian Edward James Isul Ian Anderson Annie Bae Peter Evan Karynn Michael Denise Aaron Palermo Vadim Conrad Dave John Alisha Thomas Manini Mike Carson Gray)
-LEMURS = %w(Andrew Aldric)
+LEMURS = %w(Andrew Matt Aldric Yaniv Amanda Thareef Christian Edward James Isul Ian Anderson Annie Bae Peter Evan Karynn Michael Denise Aaron Palermo Vadim Conrad Dave John Alisha Thomas Manini Mike Carson Gray)
 
 unless ARGV[0]
   ARGV[0] = LEMURS.sample
