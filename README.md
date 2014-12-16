@@ -1,6 +1,13 @@
-WDI-3000 (Codename "Lemur")
+## Random quote from random lemur
 
+```bash
+lemurick
 
-<!--
-lemurs = %w(Amanda Thareef Christian Edward James Isul Ian Anderson Annie Bae Peter Evan Karynn Michael Denise Aaron Palermo Vadim Conrad Dave John Alisha Thomas Manini Mike Carson Gray)
--->
+"One oil to rule them all."
+```
+
+## Random quote from specific lemur
+```bash
+lemurick andrew
+"keep your tenor high"
+```
