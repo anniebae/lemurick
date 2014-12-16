@@ -3,9 +3,10 @@
 require "lemurick/version"
 require "lemurick/lemurick"
 
-Dir['./lib/lemurick/lemurs/*'].each do |x|
-  puts x
-  require x
+LEMURS = %w(Andrew Matt Aldric Yaniv Amanda Thareef Christian Edward James Isul Ian Anderson Annie Bae Peter Evan Karynn Michael Denise Aaron Palermo Vadim Conrad Dave John Alisha Thomas Manini Mike Carson Gray)
+
+LEMURS.each do |lem|
+  require "./lib/lemurick/lemurs/#{lem}.rb"
 end
 
 
