@@ -13,7 +13,8 @@ module Lemurick
         "Ignoreignoreignore",
         "I like my dressing with a sprinkle of lettuce",
         "Who's ready for happy hour?",
-        "Of course I'm going! Free food & beer obvi"
+        "Of course I'm going! Free food & beer obvi",
+        "You're missing a curly bracket",
       ].map{|string| string + jamaica}
 
 
