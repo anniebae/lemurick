@@ -4,7 +4,10 @@ require "lemurick/version"
 require "lemurick/lemurick"
 
 
-Dir['lemurick/lemurs/*'].each { |x| require x }
+Dir['lemurick/lemurs/*'].each do |x|
+  puts x
+  require x
+end
 
 module Lemurick
   # Your code goes here...
