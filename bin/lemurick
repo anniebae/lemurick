@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'lemurick'
+
+puts Lemurick::LemurMic.new(ARGV[0]).call
