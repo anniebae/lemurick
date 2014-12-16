@@ -6,7 +6,7 @@ require "lemurick/lemurick"
 LEMURS = %w(Andrew Matt Aldric Yaniv Amanda Thareef Christian Edward James Isul Ian Anderson Annie Bae Peter Evan Karynn Michael Denise Aaron Palermo Vadim Conrad Dave John Alisha Thomas Manini Mike Carson Gray)
 
 LEMURS.each do |lem|
-  require "./lib/lemurick/lemurs/#{lem.downcase}.rb"
+  require "lemurick/lemurs/#{lem.downcase}"
 end
 
 
