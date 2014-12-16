@@ -1,5 +1,12 @@
 #!/usr/bin/env ruby
 
-require_relative '../lib/lemurick'
+require File.expand_path('../../lib/lemurick', __FILE__ )
+
+LEMURS = %w(Amanda Thareef Christian Edward James Isul Ian Anderson Annie Bae Peter Evan Karynn Michael Denise Aaron Palermo Vadim Conrad Dave John Alisha Thomas Manini Mike Carson Gray)
+
+unless ARGV[0]
+  ARGV[0] = LEMURS.sample
+  puts ARGV[0] + " says "
+end
 
 puts Lemurick::LemurMic.new(ARGV[0]).call
